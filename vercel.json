@@ -1,0 +1,8 @@
+{
+  "buildCommand": "node build.js",
+  "outputDirectory": ".",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
